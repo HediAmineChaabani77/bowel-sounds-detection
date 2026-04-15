@@ -1,0 +1,37 @@
+# Model checkpoints
+*.pt
+*.pth
+*.bin
+
+# Audio data
+*.wav
+*.mp3
+*.flac
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and runtime artifacts
+*.log
+nohup.out
+
+# Local data and outputs
+data/
+checkpoints/
+outputs/
+
+# Environment
+.env
+.venv/
+venv/

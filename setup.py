@@ -1,0 +1,35 @@
+from setuptools import find_packages, setup
+
+setup(
+    name="bowel-sound-detection",
+    version="0.1.0",
+    author="Hedi Amine Chaabani",
+    description="PoC for automated bowel sound event detection and 3-class classification.",
+    long_description=open("README.md", encoding="utf-8").read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/HediAmineChaabani77/bowel-sounds-detection",
+    packages=find_packages(include=["src", "src.*"]),
+    python_requires=">=3.10",
+    install_requires=[
+        "torch>=2.0",
+        "torchaudio>=2.0",
+        "transformers>=4.30",
+        "librosa>=0.10",
+        "soundfile>=0.12",
+        "numpy>=1.24",
+        "scipy>=1.10",
+        "scikit-learn>=1.3",
+        "sed_eval>=0.2.1",
+        "dcase_util>=0.2.16",
+        "noisereduce>=3.0",
+        "matplotlib>=3.7",
+    ],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.10",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+        "Intended Audience :: Science/Research",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    ],
+)
