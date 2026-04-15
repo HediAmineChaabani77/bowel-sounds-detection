@@ -239,4 +239,4 @@ Senior AI Engineer and Data Scientist, 7+ years experience
 Based in Tunis, Tunisia
 GitHub: [@HediAmineChaabani77](https://github.com/HediAmineChaabani77)
 
-Prepared as a technical interview submission for **DigeHealth** (contact: Lyle Halliday).
+Prepared as a technical interview submission for **DigeHealth**.
